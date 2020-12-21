@@ -1,0 +1,39 @@
+.html {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.header {
+    background-color: #0086FC;
+    margin: 0px;
+    /* padding-bottom: 5%; */
+}
+.section {
+    color: black;
+    padding: 10px;
+}
+.description {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.overview {
+    margin: auto 0;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+}
+.image {
+    max-height: 300px;
+}
+.headshot {
+    padding: 15px;
+    margin: auto;
+}
+.social {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    background-color: white;
+}
