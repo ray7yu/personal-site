@@ -3,13 +3,40 @@
     color: white;
 }
 .header {
-    background-color: #0086FC;
+    background-color: transparent;
     margin: 0px;
 }
+.card {
+    box-shadow: 3px 3px lightgrey;
+    margin: 10px 0;
+    height: 500px;
+}
+.btn-outline-primary {
+    position: absolute;
+    bottom: 10px;
+}
 @media (max-width: 767.98px) {
-    h1, h4, p, .link {
+    h1, h4, p, .link, .name, .card-title, .card-body {
         text-align: center;
     }
+    .btn-outline-primary {
+        position: static;
+    }
+}
+@media (max-width: 991.98px){
+    .card {
+        height: 450px;
+    }
+}
+canvas {
+    z-index: -10;
+}
+#particles-js {
+    position: fixed;
+    width:100%;
+    height:100%; 
+    background-color: #0086FC;
+    z-index: -10;
 }
 a {
     margin: 0 2px;
@@ -23,6 +50,15 @@ a {
 }
 .overview {
     margin: auto 0;
+    padding: 0 25px;
+    color: black;
+}
+.title {
+    z-index: 1;
+    margin: 0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 3px 3px lightgrey;
 }
 .icon {
     width: 30px;
@@ -36,6 +72,8 @@ a {
 }
 .image {
     max-height: 300px;
+    border-radius: 100%;
+    border: 1px solid lightgray;
 }
 .headshot {
     padding: 15px;
@@ -48,6 +86,7 @@ a {
 }
 .social {
     border-radius: 50%;
+    border: 1px solid gray;
     height: 50px;
     width: 50px;
     padding: 8px 0 0 0;
@@ -56,18 +95,13 @@ a {
 .social:hover {
     background-color: #0086FC;
 }
-.row {
-    /* margin: 10px 0; */
-}
-.card {
-    box-shadow: 3px 3px lightgrey;
-    margin: 10px 0;
-    height: 475px;
-}
 .tbd {
     visibility: hidden;
 }
-.btn-outline-primary {
-    position: absolute;
-    bottom: 10px;
+.name {
+    box-shadow: 3px 3px lightgrey;
+    border-radius: 5px;
+    color: black;
+    background-color: #FFFFFF;
+    padding: 15px 25px;
 }

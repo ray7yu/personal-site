@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -21,15 +22,17 @@
     <title>Raymond Yu</title>
   </head>
   <body class="html">
-    
+    <div id="particles-js">
+    </div>
     <div class="container-fluid header">
         <div class="container-lg description">
-            <div class="row">
+            <div class="row title">
                 <div class="overview order-2 order-md-1 col-md">
                     <h1>Raymond Yu</h1>
                     <h4>Student, Coder, Lifelong Learner</h4>
-                    <p>What's up, Raymond here! Welcome to my personal website.</p>
+                    <p>What's up, Raymond here! Welcome to my personal website. Feel free to connect with me through the links below.</p>
                     <div class="link">
+                        <a class="btn social" href="https://www.facebook.com/wenrui.yu/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
                         <a class="btn social" href="https://www.linkedin.com/in/ray7yu/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
                         <a class="btn social" href="https://github.com/ray7yu" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                         <a class="btn social" href="mailto:wrg7yu@gmail.com"><i class="far fa-envelope fa-2x"></i></a>
@@ -44,15 +47,15 @@
     
     <div class="container-fluid section">
         <div class="container-lg">
-            <h2>Resume</h2>
+            <h2 class="name">Resume</h2>
             <iframe src="https://drive.google.com/file/d/1WLdZdy7DOObQkckTe01cpxwr9MDWn6d6/preview" width="100%" height="500" class="resume"></iframe>
         </div>
     </div>
     <div class="container-fluid section">
         <div class="container-lg">
-            <h2>Projects</h2>
+            <h2 class="name">Projects</h2>
             <div class="row">
-                <div class="col-md">
+                <div class="col-lg">
                     <div class="card">
                         <img class="card-img-top" src="./imgs/laundr.png" alt="Project">
                         <div class="card-body">
@@ -64,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-lg">
                     <div class="card">
                         <img class="card-img-top" src="./imgs/teacheats.jpg" alt="Project">
                         <div class="card-body">
@@ -76,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-lg">
                     <div class="card">
                         <img class="card-img-top" src="./imgs/journey-finder.png" alt="Project">
                         <div class="card-body">
@@ -89,7 +92,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md">
+                <div class="col-lg">
                     <div class="card">
                         <img class="card-img-top" src="./imgs/food-roulette.png" alt="Project">
                         <div class="card-body">
@@ -101,7 +104,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-lg">
                     <div class="card">
                         <img class="card-img-top" src="./imgs/asl-recognition.png" alt="Project">
                         <div class="card-body">
@@ -111,7 +114,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-lg">
                     <div class="card">
                         <img class="card-img-top" src="./imgs/ascii-art.jpeg" alt="Project">
                         <div class="card-body">
@@ -123,7 +126,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md">
+                <div class="col-lg">
                     <div class="card">
                         <img class="card-img-top" src="./imgs/intervert.png" alt="Project">
                         <div class="card-body">
@@ -134,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md tbd">
+                <div class="col-lg tbd">
                     <div class="card">
                         <img class="card-img-top" src="" alt="Project">
                         <div class="card-body">
@@ -146,7 +149,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md tbd">
+                <div class="col-lg tbd">
                     <div class="card">
                         <img class="card-img-top" src="" alt="Project">
                         <div class="card-body">
@@ -164,5 +167,9 @@
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-  </body>
+
+    <!-- Particle.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="app.js"></script>
+    </body>
 </html>
