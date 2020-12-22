@@ -53,3 +53,21 @@ a {
     padding: 8px 0 0 0;
     background-color: white;
 }
+.social:hover {
+    background-color: #0086FC;
+}
+.row {
+    /* margin: 10px 0; */
+}
+.card {
+    box-shadow: 3px 3px lightgrey;
+    margin: 10px 0;
+    height: 475px;
+}
+.tbd {
+    visibility: hidden;
+}
+.btn-outline-primary {
+    position: absolute;
+    bottom: 10px;
+}
