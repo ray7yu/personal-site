@@ -15,6 +15,11 @@
     position: absolute;
     bottom: 10px;
 }
+.image {
+    max-height: 300px;
+    border-radius: 100%;
+    border: 1px solid lightgray;
+}
 @media (max-width: 767.98px) {
     h1, h4, p, .link, .name, .card-title, .card-body {
         text-align: center;
@@ -23,7 +28,15 @@
         position: static;
     }
 }
-@media (max-width: 991.98px){
+@media (max-width: 575.98px){
+    .card {
+        height: 500px;
+    }
+    .image {
+        max-width: 100%;
+    }
+}
+@media (min-width: 575.98px) and (max-width: 991.98px){
     .card {
         height: 450px;
     }
@@ -70,11 +83,7 @@ a {
 .resume {
     border-radius: 5px;
 }
-.image {
-    max-height: 300px;
-    border-radius: 100%;
-    border: 1px solid lightgray;
-}
+
 .headshot {
     padding: 15px;
     text-align: center;
